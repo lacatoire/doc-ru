@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 91791cdde04dd89898656fbec1aa8e7e0bf0460d Maintainer: rjhdby Status: ready -->
+<!-- EN-Revision: e1b9f588815a51682acf68f9b8929f49ad612488 Maintainer: rjhdby Status: ready -->
 <!-- Reviewed: no -->
 <book xml:id="book.intl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundled" ?>
@@ -9,7 +9,7 @@
  <!-- {{{ Preface -->
  <preface xml:id="intro.intl">
   &reftitle.intro;
-  <para>
+  <simpara>
    Модуль интернационализации (далее Intl) - это обёртка для библиотеки
    <link xlink:href="&url.icu.home;">ICU</link>, позволяющая программистам на PHP
    производить различные операции, которые зависят от локали, например,
@@ -18,16 +18,16 @@
    сравнение, определение
    границ текста и работать с идентификаторами локалей, часовыми поясами
    и графемами.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Программный интерфейс модуля разрабатывается так, чтобы как можно точнее повторять
    API ICU, чтобы люди, работавшие с ICE в C/C++ или Java, могли легко использовать API PHP.
    Также благодаря этому документация ICE может быть полезной чтобы понять различие функции ICU.
-  </para>
+  </simpara>
 
-  <para>
+  <simpara>
    Intl состоит из нескольких модулей, каждый из которых предоставляет соответствующий API ICU:
-  </para>
+  </simpara>
 
   <itemizedlist>
    <listitem>
@@ -98,13 +98,13 @@
    <title>Ссылки</title>
    <itemizedlist>
     <listitem>
-     <para><link xlink:href="&url.icu.docs;">Различная документация ICU</link></para>
+     <simpara><link xlink:href="&url.icu.docs;">Различная документация ICU</link></simpara>
     </listitem>
     <listitem>
-     <para><link xlink:href="&url.icu.userguide;">Руководство пользователя ICU</link></para>
+     <simpara><link xlink:href="&url.icu.userguide;">Руководство пользователя ICU</link></simpara>
     </listitem>
     <listitem>
-     <para><link xlink:href="&url.icu.uca;">Алгоритм сопоставления Unicode</link></para>
+     <simpara><link xlink:href="&url.icu.uca;">Алгоритм сопоставления Unicode</link></simpara>
     </listitem>
    </itemizedlist>
   </section>
